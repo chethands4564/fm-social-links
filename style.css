@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;600;700&family=Montserrat:wght@500;700&family=Poppins:wght@200;400;600&display=swap');
+
+body {
+  font-family: Inter;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(6, 6, 6);
+}
+
+.container {
+  padding: 20px;
+  max-width: 355px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  color: white;
+}
+
+.card{
+  /* margin-top: 5px; */
+}
+
+img {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 93px;
+}
+
+.fir-line{
+  font-weight: 600;
+}
+
+.sec-line {
+  color: hsl(75, 94%, 57%);
+  margin-top:-10px;
+  font-weight: 600;
+}
+
+.thi-line{
+  font-weight: 400;
+}
+
+
+.buttons{
+  display:flex;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 10px;
+  padding: 12px 0px 12px 0px;
+  min-width: 250px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 15px;
+  border: none;
+}
+
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
